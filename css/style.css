@@ -1,7 +1,4 @@
-/* main */
-/*
-html{cursor: url(../images/mouse.png), auto}
-*/
+
 body{font-family:'Noto Sans KR',sans-serif; color:#2b2b2b;}
 #wrap{width:100%; min-width:1200px;}
 ::selection{background-color:#bbdcfb;}
@@ -27,6 +24,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 header h1 {
@@ -91,12 +89,40 @@ h2 {
     border-radius: 5px;
 }
 
-
-
 footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px 0;
     background: #333;
     color: #fff;
+}
+
+/* About Me 스타일 */
+#about {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#about p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.about-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.about-list li::before {
+    position: absolute;
+    left: 0;
+    color: #333;
 }
