@@ -57,14 +57,41 @@ h2 {
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
+/* 연락처 스타일 */
+#contact {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
 
-.project {
+.contact-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contact-item span {
+    margin-right: 10px;
+}
+
+.contact-item a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+.experience {
     background: #fff;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
+
 
 footer {
     text-align: center;
