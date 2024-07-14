@@ -169,7 +169,7 @@ footer {
 }
 
 .skill {
-    flex: 1 1 calc(33.333% - 20px);
+    flex: 1 1 calc(20% - 20px);
     margin: 10px;
     text-align: center;
 }
