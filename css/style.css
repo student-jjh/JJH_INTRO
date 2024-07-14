@@ -185,3 +185,49 @@ footer {
     margin-top: 10px;
     font-weight: bold;
 }
+
+#career {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.career-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.company-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.job-details {
+    padding-left: 60px; /* Adjust to make space for icons */
+}
+
+.job-details p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
